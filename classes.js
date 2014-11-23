@@ -5,13 +5,10 @@ module.exports = {
   addClass: function(name) {
     var newclass = new Classes();
     newclass.class = name;
+    newclass.students = [];
     newclass.save(function(err, data) {
-      if (err) console.log('couldnt create class');
+      if (err) console.log('couldnt create class: ' + err);
+      console.log('class added: ' + name);
     });
-    console.log('class added: ' + name);
-    process.exit();
-  },
-  removeClass: function(name) {
-    console.log('class removed: ' + name);
   }
 };
