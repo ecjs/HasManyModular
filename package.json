@@ -1,0 +1,23 @@
+{
+  "name": "HasManyModular",
+  "version": "1.0.0",
+  "description": "has many relationship",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecjs/HasManyModular.git"
+  },
+  "author": "Mark Harrell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecjs/HasManyModular/issues"
+  },
+  "homepage": "https://github.com/ecjs/HasManyModular"
+}

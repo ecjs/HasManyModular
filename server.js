@@ -6,11 +6,6 @@ var classes = require('./classes');
 var students = require('./students');
 var Classes = require('./models/classes.js');
 
-var addRemove = process.argv[2];
-var studentOrClass = process.argv[3];
-var subject = process.argv[4];
-var studentClass = process.argv[5];
-
 mongoose.connect(process.env.MONGO_URL || 'mongodb://localhost/modular');
 
 function errors() {

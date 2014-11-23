@@ -9,7 +9,6 @@ module.exports = {
       if (err) console.log('couldnt create class');
     });
     console.log('class added: ' + name);
-    process.exit();
   },
   removeClass: function(name) {
     console.log('class removed: ' + name);
